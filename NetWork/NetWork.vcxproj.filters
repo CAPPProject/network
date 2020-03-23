@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\common">
+      <UniqueIdentifier>{a7714763-8fc9-409a-88a3-89946febc942}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\https">
+      <UniqueIdentifier>{3505cd95-b8d0-45a7-a814-86b3b47ea7b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\http">
+      <UniqueIdentifier>{668dc12c-bbf8-4987-a2c0-e0e408216968}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\http">
+      <UniqueIdentifier>{58410a12-31ec-437e-906b-b9123eab90f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\https">
+      <UniqueIdentifier>{8192864d-e2f5-4c11-b6e2-467e9c1ca375}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\common">
+      <UniqueIdentifier>{786c5918-7755-48ff-a674-9f0be1c4408c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\api">
+      <UniqueIdentifier>{862e3169-425c-4551-b26f-2259bc953884}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\api">
+      <UniqueIdentifier>{46e7776c-d71d-4f8b-9f23-86cf8ed3737c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\api\define">
+      <UniqueIdentifier>{6c02228f-9c52-4d96-a12f-19e40006247e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\api\define">
+      <UniqueIdentifier>{fe0446d9-6411-4683-8622-1fa8bc7e3db9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Http\moon_http_client.h">
+      <Filter>头文件\http</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\moon_string.h">
+      <Filter>头文件\common</Filter>
+    </ClInclude>
+    <ClInclude Include="Https\moon_https_client.h">
+      <Filter>头文件\https</Filter>
+    </ClInclude>
+    <ClInclude Include="common\moon_url_parse.h">
+      <Filter>头文件\common</Filter>
+    </ClInclude>
+    <ClInclude Include="api\http_client.h">
+      <Filter>头文件\api</Filter>
+    </ClInclude>
+    <ClInclude Include="api\define\moon_http.h">
+      <Filter>头文件\api\define</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="NetWork.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Http\moon_http_client.cpp">
+      <Filter>源文件\http</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\moon_string.cpp">
+      <Filter>源文件\common</Filter>
+    </ClCompile>
+    <ClCompile Include="Https\moon_https_client.cpp">
+      <Filter>源文件\https</Filter>
+    </ClCompile>
+    <ClCompile Include="common\moon_url_parse.cpp">
+      <Filter>源文件\common</Filter>
+    </ClCompile>
+    <ClCompile Include="api\http_client.cpp">
+      <Filter>源文件\api</Filter>
+    </ClCompile>
+    <ClCompile Include="api\define\moon_http.cpp">
+      <Filter>源文件\api\define</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
